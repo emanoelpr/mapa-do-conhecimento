@@ -1,0 +1,21 @@
+# Arquivos de ambiente e credenciais
+.env
+.env.*
+!.env.example
+
+# Backups e dumps locais não revisados
+*.bak
+*.dump
+*_com_dados_reais.sql
+*_privado.sql
+
+# Temporários e logs
+*.log
+*.tmp
+*.swp
+
+# Editor e sistema
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
